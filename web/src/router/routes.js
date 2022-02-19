@@ -6,10 +6,10 @@ const routes = [
     meta: { icon: "user" },
   },
   {
-    path: "/byte_calc",
+    path: "/bytecalc",
     name: "ByteCalc",
     component: () => import("../views/ByteCalc.vue"),
-    meta: { icon: "user" },
+    meta: { icon: "calculator" },
   },
 ];
 
